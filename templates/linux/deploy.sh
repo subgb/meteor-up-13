@@ -99,6 +99,18 @@ if [ -d ./node_modules ]; then
   cd ../
 fi
 
+if [ -d ./npm/node_modules ]; then
+  cd ./npm/node_modules
+  gyp_rebuild_inside_node_modules
+  cd ../../
+fi
+
+if [ -d ./npm/node_modules/meteor ]; then
+  cd ./npm/node_modules/meteor
+  rebuild_binary_npm_modules
+  cd ../../../
+fi
+
 if [ -f package.json ]; then
   # support for 0.9
   sudo npm install

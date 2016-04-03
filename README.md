@@ -59,7 +59,8 @@ You can use install and use Meteor Up from Linux, Mac and Windows.
 
 ### Installation
 
-    npm install -g mup
+    npm install
+    npm link
 
 ### Creating a Meteor Up Project
 
@@ -100,7 +101,7 @@ This will create two files in your Meteor Up project directory:
   "setupNode": true,
 
   // WARNING: nodeVersion defaults to 0.10.36 if omitted. Do not use v, just the version number.
-  "nodeVersion": "0.10.36",
+  "nodeVersion": "0.10.41",
 
   // Install PhantomJS on the server
   "setupPhantom": true,
