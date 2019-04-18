@@ -36,3 +36,6 @@ sudo mv ${NODE_DIST} /opt/nodejs
 
 sudo ln -sf /opt/nodejs/bin/node /usr/bin/node
 sudo ln -sf /opt/nodejs/bin/npm /usr/bin/npm
+
+# bugfix: update npm from 1.4.29 to 2.x
+sudo /opt/nodejs/bin/npm -g install npm@latest-2
