@@ -59,6 +59,12 @@ You can use install and use Meteor Up from Linux, Mac and Windows.
 
 ### Installation
 
+Install from npm registry:
+
+    npm install -g mup13
+    
+or, install from git repository:
+
     npm install
     npm link
 

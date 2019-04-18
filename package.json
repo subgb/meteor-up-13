@@ -1,6 +1,6 @@
 {
-  "name": "mup",
-  "version": "0.11.3",
+  "name": "mup13",
+  "version": "0.12.1",
   "description": "Production Quality Meteor Deployments",
   "dependencies": {
     "async": "^0.9.0",
@@ -13,7 +13,7 @@
     "archiver": "0.14.x"
   },
   "bin": {
-    "mup": "./bin/mup"
+    "mup13": "./bin/mup"
   },
   "author": "Arunoda Susiripala <arunoda.susiripala@gmail.com>",
   "repository": {
